@@ -1,0 +1,20 @@
+# SQLite database and backups
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sqlite-shm
+*.sqlite-wal
+*.bak
+*.backup
+
+# Secrets / local environment
+.env
+.env.*
+!.env.example
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
